@@ -31,15 +31,15 @@ python HEICtoJPG.py --src "C:\path\to\heic_folder" --dst "C:\path\to\out"
 - --png
   - PNGで保存（ロスレス）。指定しない場合はJPEG
 - --quality
-  - JPEGの画質 1〜100。既定は 92
+  - JPEGの画質 1〜100。既定は 95
   - --png 指定時は無視
 - --workers
   - 並列実行数。既定はCPUコア数
 
 例:
 ```bash
-# 高画質JPEG（品質95）
-python HEICtoJPG.py --src "C:\HEIC" --dst "C:\OUT" --quality 95
+# 高画質JPEG（品質100）
+python HEICtoJPG.py --src "C:\HEIC" --dst "C:\OUT" --quality 100
 
 # PNG（ロスレス）
 python HEICtoJPG.py --src "C:\HEIC" --dst "C:\OUT" --png
