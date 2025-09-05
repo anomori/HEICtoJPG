@@ -64,3 +64,4 @@ python HEICtoJPG.py --src "C:\HEIC" --dst "C:\OUT" --quality 92 --workers 4
 
 ## ライセンス
 - 個人利用の想定。再配布・改変は自己責任で実施してください。
+このプロジェクトは、ChatGPT-5の支援を受けて作成されました。
